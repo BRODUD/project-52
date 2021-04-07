@@ -1,0 +1,39 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.origami{
+    padding-left: 350px;
+        border-radius:500px ;
+        position:relative;
+}
+.origami p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+    
+}
+.origami:hover p{
+    opacity:1;
+}
+.origami:hover img{
+opacity:0.33
+}
+a:link{
+    color:white
+}
+a:visited{
+    color:white
+}
+body{
+   margin:0px;
+    background-color: whitesmoke;
+}
